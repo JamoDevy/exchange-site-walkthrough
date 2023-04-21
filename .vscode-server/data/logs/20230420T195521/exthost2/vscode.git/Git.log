@@ -1,0 +1,18 @@
+2023-04-20 19:56:49.842 [info] Log level: Info
+2023-04-20 19:56:49.842 [info] Validating found git in: "git"
+2023-04-20 19:56:49.842 [info] Using git "2.17.1" from "git"
+2023-04-20 19:56:49.842 [info] > git rev-parse --show-toplevel [30ms]
+2023-04-20 19:56:49.842 [info] > git rev-parse --show-toplevel [2ms]
+2023-04-20 19:56:49.842 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-04-20 19:56:49.842 [info] Open repository: /home/devinlclarke/altcademy_projects/exchange-rate-site
+2023-04-20 19:56:49.842 [info] > git config --get commit.template [5ms]
+2023-04-20 19:56:49.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:56:49.842 [info] > git status -z -uall [125ms]
+2023-04-20 19:56:49.842 [info] > git config --get commit.template [1ms]
+2023-04-20 19:56:49.842 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:56:49.903 [info] > git status -z -uall [106ms]
+2023-04-20 19:56:50.049 [info] > git show --textconv :src/App.js [11ms]
+2023-04-20 19:56:50.054 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [10ms]
+2023-04-20 19:56:50.063 [info] > git cat-file -s 7fd83d829e57ead66f055a846a5fde8f6ff605fc [2ms]
+2023-04-20 19:56:50.297 [info] > git check-ignore -v -z --stdin [30ms]
+2023-04-20 19:56:50.542 [info] > git rev-parse --show-toplevel [2ms]

@@ -1,0 +1,10 @@
+2023-04-20 00:48:51.945 [info] Log level: Info
+2023-04-20 00:48:51.945 [info] Validating found git in: "git"
+2023-04-20 00:48:51.945 [info] Using git "2.17.1" from "git"
+2023-04-20 00:48:51.945 [info] > git rev-parse --show-toplevel [35ms]
+2023-04-20 00:48:51.945 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-20 00:48:51.945 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2023-04-20 00:48:51.945 [info] Open repository: /home/devinlclarke/converter_project/converter_walkthrough/exchange-rate-site
+2023-04-20 00:48:51.945 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [7ms]
+2023-04-20 00:48:52.294 [info] > git rev-parse --show-toplevel [8ms]
+2023-04-20 00:48:52.344 [info] > git check-ignore -v -z --stdin [4ms]

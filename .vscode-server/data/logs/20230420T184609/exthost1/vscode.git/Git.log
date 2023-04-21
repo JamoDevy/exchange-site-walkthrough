@@ -1,0 +1,20 @@
+2023-04-20 18:46:12.588 [info] Log level: Info
+2023-04-20 18:46:12.588 [info] Validating found git in: "git"
+2023-04-20 18:46:12.588 [info] Using git "2.17.1" from "git"
+2023-04-20 18:46:12.588 [info] > git rev-parse --show-toplevel [31ms]
+2023-04-20 18:46:12.588 [info] > git rev-parse --git-dir --git-common-dir [27ms]
+2023-04-20 18:46:12.588 [info] Open repository: /home/devinlclarke/converter_project/currency_converter_project
+2023-04-20 18:46:12.588 [info] > git rev-parse --show-toplevel [16ms]
+2023-04-20 18:46:12.589 [info] > git rev-parse --show-toplevel [5ms]
+2023-04-20 18:46:12.594 [info] > git config --get commit.template [17ms]
+2023-04-20 18:46:12.596 [info] > git rev-parse --show-toplevel [2ms]
+2023-04-20 18:46:12.614 [info] > git rev-parse --show-toplevel [9ms]
+2023-04-20 18:46:12.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [95ms]
+2023-04-20 18:46:12.723 [info] > git status -z -uall [11ms]
+2023-04-20 18:46:12.761 [info] > git config --get commit.template [12ms]
+2023-04-20 18:46:12.766 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-04-20 18:46:12.780 [info] > git status -z -uall [5ms]
+2023-04-20 18:46:12.969 [info] > git show --textconv :src/SingleConverter.js [18ms]
+2023-04-20 18:46:12.970 [info] > git ls-files --stage -- /home/devinlclarke/converter_project/currency_converter_project/src/SingleConverter.js [8ms]
+2023-04-20 18:46:12.977 [info] > git cat-file -s 64aea1045d246de0e06bcbff14c2851edfb6e843 [2ms]
+2023-04-20 18:46:13.131 [info] > git check-ignore -v -z --stdin [1ms]

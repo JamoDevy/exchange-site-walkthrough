@@ -1,0 +1,7 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "files.autoSave": "afterDelay",
+    "git.confirmSync": false
+}

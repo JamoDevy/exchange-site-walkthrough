@@ -1,0 +1,6 @@
+2023-03-25T01:38:26.646Z Warning: update with: "npm update -g heroku"
+2023-03-25T01:38:26.646Z     at Object.warn (/home/devinlclarke/.nvm/versions/node/v16.19.1/lib/node_modules/heroku/node_modules/@oclif/core/lib/errors/index.js:50:15)
+2023-03-25T01:38:26.646Z     at Updater.notUpdatable (/home/devinlclarke/.nvm/versions/node/v16.19.1/lib/node_modules/heroku/node_modules/@oclif/plugin-update/lib/update.js:218:33)
+2023-03-25T01:38:26.646Z     at Updater.runUpdate (/home/devinlclarke/.nvm/versions/node/v16.19.1/lib/node_modules/heroku/node_modules/@oclif/plugin-update/lib/update.js:30:18)
+2023-03-25T01:38:26.646Z     at async UpdateCommand._run (/home/devinlclarke/.nvm/versions/node/v16.19.1/lib/node_modules/heroku/node_modules/@oclif/core/lib/command.js:80:22)
+2023-03-25T01:38:26.646Z     at async Config.runCommand (/home/devinlclarke/.nvm/versions/node/v16.19.1/lib/node_modules/heroku/node_modules/@oclif/core/lib/config/config.js:301:25)

@@ -1,0 +1,13 @@
+#ratesContainer {
+    margin-top: 40px;
+    display: inline;
+}
+
+
+#conversionContainer {
+    background-color: rgb(114, 137, 237);
+}
+
+.form-control {
+    width: 50%;
+}

@@ -1,0 +1,23 @@
+2023-04-16 20:10:44.516 [info] Log level: Info
+2023-04-16 20:10:44.516 [info] Validating found git in: "git"
+2023-04-16 20:10:44.516 [info] Using git "2.17.1" from "git"
+2023-04-16 20:10:44.516 [info] > git rev-parse --show-toplevel [9ms]
+2023-04-16 20:10:44.526 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2023-04-16 20:10:44.535 [info] Open repository: /home/devinlclarke/react_currency_project/currency_converter
+2023-04-16 20:10:44.578 [info] > git rev-parse --show-toplevel [38ms]
+2023-04-16 20:10:44.588 [info] > git rev-parse --show-toplevel [6ms]
+2023-04-16 20:10:44.593 [info] > git config --get commit.template [15ms]
+2023-04-16 20:10:44.618 [info] > git rev-parse --show-toplevel [26ms]
+2023-04-16 20:10:44.629 [info] > git rev-parse --show-toplevel [8ms]
+2023-04-16 20:10:44.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2023-04-16 20:10:44.654 [info] > git status -z -uall [6ms]
+2023-04-16 20:10:44.676 [info] > git config --get commit.template [7ms]
+2023-04-16 20:10:44.685 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-04-16 20:10:44.694 [info] > git status -z -uall [2ms]
+2023-04-16 20:10:44.919 [info] > git show --textconv :src/SingleConverter.js [6ms]
+2023-04-16 20:10:44.920 [info] > git ls-files --stage -- /home/devinlclarke/react_currency_project/currency_converter/src/SingleConverter.js [1ms]
+2023-04-16 20:10:44.925 [info] > git cat-file -s 64a6334414e5d1387e3b7a5c2ff29cbe57b90ef3 [1ms]
+2023-04-16 20:10:45.053 [info] > git check-ignore -v -z --stdin [4ms]
+2023-04-16 22:08:05.497 [info] > git show --textconv :src/CurrencyConverter.js [21ms]
+2023-04-16 22:08:05.498 [info] > git ls-files --stage -- /home/devinlclarke/react_currency_project/currency_converter/src/CurrencyConverter.js [9ms]
+2023-04-16 22:08:05.512 [info] > git cat-file -s 01bc1034068b603e4aa413903bcd2819ca0c65c6 [1ms]

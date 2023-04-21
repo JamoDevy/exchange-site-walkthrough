@@ -1,0 +1,17 @@
+2023-04-20 01:39:32.149 [info] Log level: Info
+2023-04-20 01:39:32.149 [info] Validating found git in: "git"
+2023-04-20 01:39:32.149 [info] Using git "2.17.1" from "git"
+2023-04-20 01:39:32.149 [info] > git rev-parse --show-toplevel [41ms]
+2023-04-20 01:39:32.149 [info] > git rev-parse --show-toplevel [7ms]
+2023-04-20 01:39:32.149 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-04-20 01:39:32.149 [info] Open repository: /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site
+2023-04-20 01:39:32.149 [info] > git rev-parse --show-toplevel [5ms]
+2023-04-20 01:39:32.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 01:39:32.149 [info] > git status -z -uall [8ms]
+2023-04-20 01:39:32.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 01:39:32.149 [info] > git status -z -uall [2ms]
+2023-04-20 01:39:32.149 [info] > git show --textconv :src/App.js [5ms]
+2023-04-20 01:39:32.149 [info] > git ls-files --stage -- /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site/src/App.js [1ms]
+2023-04-20 01:39:32.149 [info] > git cat-file -s cf120112bf6b2858fffe6cc300ebcbf2a8bd5bae [1ms]
+2023-04-20 01:39:32.149 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-20 01:39:33.780 [info] > git rev-parse --show-toplevel [1ms]

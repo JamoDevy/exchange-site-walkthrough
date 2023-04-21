@@ -1,0 +1,24 @@
+2023-04-20 19:55:21.434 [info] 
+
+
+
+
+2023-04-20 19:55:21.455 [info] Extension host agent started.
+2023-04-20 19:55:21.749 [info] [127.0.0.1][b9b5b7ed][ManagementConnection] New connection established.
+2023-04-20 19:55:22.234 [info] [127.0.0.1][cc10297d][ExtensionHostConnection] New connection established.
+2023-04-20 19:55:22.250 [info] [127.0.0.1][cc10297d][ExtensionHostConnection] <6053> Launched Extension Host Process.
+2023-04-20 19:56:46.919 [info] [127.0.0.1][b9b5b7ed][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-20 19:56:46.938 [info] [127.0.0.1][cc10297d][ExtensionHostConnection] <6053> Extension Host Process exited with code: 0, signal: null.
+2023-04-20 19:56:48.282 [info] [127.0.0.1][24ca1753][ManagementConnection] New connection established.
+2023-04-20 19:56:48.566 [info] [127.0.0.1][0f1b186e][ExtensionHostConnection] New connection established.
+2023-04-20 19:56:48.575 [info] [127.0.0.1][0f1b186e][ExtensionHostConnection] <6087> Launched Extension Host Process.
+2023-04-20 19:57:31.093 [info] [127.0.0.1][24ca1753][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-20 19:57:31.128 [info] [127.0.0.1][0f1b186e][ExtensionHostConnection] <6087> Extension Host Process exited with code: 0, signal: null.
+2023-04-20 19:57:32.553 [info] [127.0.0.1][baf5b4dc][ManagementConnection] New connection established.
+2023-04-20 19:57:33.046 [info] [127.0.0.1][ecd3e2bd][ExtensionHostConnection] New connection established.
+2023-04-20 19:57:33.060 [info] [127.0.0.1][ecd3e2bd][ExtensionHostConnection] <6461> Launched Extension Host Process.
+2023-04-20 19:59:14.976 [info] [127.0.0.1][baf5b4dc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-04-20 19:59:15.009 [info] [127.0.0.1][ecd3e2bd][ExtensionHostConnection] <6461> Extension Host Process exited with code: 0, signal: null.
+2023-04-20 19:59:16.409 [info] [127.0.0.1][b804b14d][ManagementConnection] New connection established.
+2023-04-20 19:59:16.831 [info] [127.0.0.1][c6f37e77][ExtensionHostConnection] New connection established.
+2023-04-20 19:59:16.850 [info] [127.0.0.1][c6f37e77][ExtensionHostConnection] <6635> Launched Extension Host Process.

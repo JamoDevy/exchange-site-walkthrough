@@ -1,0 +1,84 @@
+2023-04-20 01:36:38.481 [info] Log level: Info
+2023-04-20 01:36:38.481 [info] Validating found git in: "git"
+2023-04-20 01:36:38.481 [info] Using git "2.17.1" from "git"
+2023-04-20 01:36:38.481 [info] > git rev-parse --show-toplevel [32ms]
+2023-04-20 01:36:38.481 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-20 01:36:38.481 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-20 01:36:38.481 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-04-20 01:36:38.481 [info] Open repository: /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site
+2023-04-20 01:36:38.481 [info] > git config --get commit.template [2ms]
+2023-04-20 01:36:38.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 01:36:38.481 [info] > git status -z -uall [15ms]
+2023-04-20 01:36:38.481 [info] > git rev-parse --show-toplevel [24ms]
+2023-04-20 01:36:38.481 [info] > git config --get commit.template [36ms]
+2023-04-20 01:36:38.481 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [11ms]
+2023-04-20 01:36:38.481 [info] > git status -z -uall [15ms]
+2023-04-20 01:36:38.743 [info] > git show --textconv :.git/COMMIT_EDITMSG [7ms]
+2023-04-20 01:36:38.744 [info] > git ls-files --stage -- /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site/.git/COMMIT_EDITMSG [2ms]
+2023-04-20 01:36:38.817 [info] > git check-ignore -v -z --stdin [2ms]
+2023-04-20 01:36:39.377 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-20 01:36:43.737 [info] > git rev-parse --show-toplevel [1ms]
+2023-04-20 01:36:51.487 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [13ms]
+2023-04-20 01:36:51.492 [info] > git config --get commit.template [1ms]
+2023-04-20 01:36:51.502 [info] > git config --get commit.template [4ms]
+2023-04-20 01:36:51.502 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [0ms]
+2023-04-20 01:36:51.507 [info] > git status -z -uall [1ms]
+2023-04-20 01:36:51.621 [info] > git config --get commit.template [5ms]
+2023-04-20 01:36:51.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 01:36:51.628 [info] > git status -z -uall [2ms]
+2023-04-20 01:36:52.728 [info] > git ls-files --stage -- /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site/.git/COMMIT_EDITMSG [2ms]
+2023-04-20 01:36:52.788 [info] > git show --textconv :.git/COMMIT_EDITMSG [2ms]
+2023-04-20 01:36:53.954 [info] > git log --oneline --cherry gh-pages...gh-pages@{upstream} -- [2ms]
+2023-04-20 01:36:54.377 [info] > git pull --tags origin gh-pages [417ms]
+2023-04-20 01:36:54.377 [info] From https://github.com/JamoDevy/exchange-rate-site
+ * branch            gh-pages   -> FETCH_HEAD
+   f95c4d8..62ce495  gh-pages   -> origin/gh-pages
+2023-04-20 01:36:54.383 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 01:36:54.471 [info] > git status -z -uall [83ms] (cancelled)
+2023-04-20 01:36:54.471 [info] > git check-ignore -v -z --stdin [2ms]
+2023-04-20 01:36:55.680 [info] > git ls-files --stage -- /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site/.git/COMMIT_EDITMSG [2ms]
+2023-04-20 01:36:55.744 [info] > git show --textconv :.git/COMMIT_EDITMSG [0ms]
+2023-04-20 01:37:06.735 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 01:37:06.744 [info] > git status -z -uall [3ms]
+2023-04-20 01:37:07.033 [info] > git check-ignore -v -z --stdin [3ms]
+2023-04-20 01:37:07.550 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-20 01:37:08.049 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 01:37:08.059 [info] > git status -z -uall [3ms]
+2023-04-20 01:37:12.114 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [4ms]
+2023-04-20 01:37:12.114 [info] error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+2023-04-20 01:37:12.122 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 01:37:12.132 [info] > git status -z -uall [3ms]
+2023-04-20 01:37:36.921 [info] > git check-ignore -v -z --stdin [2ms]
+2023-04-20 01:38:03.325 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [6ms]
+2023-04-20 01:38:03.325 [info] error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+2023-04-20 01:38:03.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 01:38:03.340 [info] > git status -z -uall [3ms]
+2023-04-20 01:38:08.822 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-20 01:38:20.683 [info] > git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z HEAD [5ms]
+2023-04-20 01:38:20.685 [info] > git show -s --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z MERGE_HEAD [3ms]
+2023-04-20 01:38:20.759 [info] > git show --textconv :1:src/App.js [23ms]
+2023-04-20 01:38:20.759 [info] > git show --textconv 62ce4954ea94bff04218a83714e0e374372e397c:src/App.js [18ms]
+2023-04-20 01:38:20.759 [info] > git show --textconv 26006b0ec15f82f4be4dd7d3d21e7543058ca809:src/App.js [13ms]
+2023-04-20 01:38:20.759 [info] > git ls-tree -l 26006b0ec15f82f4be4dd7d3d21e7543058ca809 -- /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site/src/App.js [1ms]
+2023-04-20 01:38:20.760 [info] > git ls-tree -l 62ce4954ea94bff04218a83714e0e374372e397c -- /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site/src/App.js [5ms]
+2023-04-20 01:38:20.761 [info] > git ls-tree -l :1 -- /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site/src/App.js [9ms]
+2023-04-20 01:38:20.761 [info] fatal: Not a valid object name :1
+2023-04-20 01:38:27.612 [info] > git add -A -- /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site/src/App.js [4ms]
+2023-04-20 01:38:27.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 01:38:27.631 [info] > git status -z -uall [1ms]
+2023-04-20 01:38:28.071 [info] > git show --textconv :src/App.js [9ms]
+2023-04-20 01:38:28.072 [info] > git ls-files --stage -- /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site/src/App.js [2ms]
+2023-04-20 01:38:28.080 [info] > git cat-file -s cf120112bf6b2858fffe6cc300ebcbf2a8bd5bae [3ms]
+2023-04-20 01:38:28.715 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 01:38:28.722 [info] > git status -z -uall [2ms]
+2023-04-20 01:38:28.816 [info] > git ls-files --stage -- /home/devinlclarke/converter_project/converter_walkthrough_2/exchange-rate-site/src/App.js [0ms]
+2023-04-20 01:38:28.821 [info] > git cat-file -s cf120112bf6b2858fffe6cc300ebcbf2a8bd5bae [0ms]
+2023-04-20 01:38:28.834 [info] > git show --textconv :src/App.js [1ms]
+2023-04-20 01:38:33.740 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [3ms]
+2023-04-20 01:38:33.750 [info] > git status -z -uall [2ms]

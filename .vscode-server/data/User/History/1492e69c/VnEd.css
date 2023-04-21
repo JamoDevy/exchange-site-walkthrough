@@ -1,0 +1,19 @@
+#ratesContainer {
+    margin-top: 40px;
+    display: inline;
+}
+
+
+#conversionContainer {
+    background-color: rgb(26, 96, 33);
+    border-radius: 20px;
+}
+
+.form-control {
+    width: 200%;
+}
+
+#header {
+    padding-top: 20px;
+}
+

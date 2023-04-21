@@ -1,0 +1,12 @@
+2023-04-20 18:47:58.021 [info] Log level: Info
+2023-04-20 18:47:58.021 [info] Validating found git in: "git"
+2023-04-20 18:47:58.021 [info] Using git "2.17.1" from "git"
+2023-04-20 18:47:58.021 [info] > git rev-parse --show-toplevel [25ms]
+2023-04-20 18:47:58.022 [info] > git rev-parse --show-toplevel [2ms]
+2023-04-20 18:47:58.026 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2023-04-20 18:47:58.033 [info] Open repository: /home/devinlclarke/altcademy_projects/exchange-rate-site-2
+2023-04-20 18:47:58.061 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [3ms]
+2023-04-20 18:47:58.069 [info] > git status -z -uall [4ms]
+2023-04-20 18:47:58.084 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 18:47:58.091 [info] > git status -z -uall [4ms]
+2023-04-20 18:47:58.551 [info] > git check-ignore -v -z --stdin [4ms]

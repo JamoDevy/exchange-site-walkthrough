@@ -1,0 +1,590 @@
+2023-04-20 18:49:15.840 [info] Log level: Info
+2023-04-20 18:49:15.840 [info] Validating found git in: "git"
+2023-04-20 18:49:15.840 [info] Using git "2.17.1" from "git"
+2023-04-20 18:49:15.840 [info] > git rev-parse --show-toplevel [25ms]
+2023-04-20 18:49:24.428 [info] > git rev-parse --show-toplevel [4ms]
+2023-04-20 18:49:32.125 [info] > git rev-parse --show-toplevel [8ms]
+2023-04-20 18:53:18.660 [info] > git rev-parse --show-toplevel [0ms]
+2023-04-20 18:54:31.830 [info] > git rev-parse --show-toplevel [2ms]
+2023-04-20 18:54:31.838 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2023-04-20 18:54:31.847 [info] Open repository: /home/devinlclarke/altcademy_projects/exchange-rate-site
+2023-04-20 18:54:31.853 [info] > git config --get commit.template [1ms]
+2023-04-20 18:54:31.857 [info] No remotes found in the git config file.
+2023-04-20 18:54:31.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-20 18:54:31.861 [info] > git status -z -uall [1ms]
+2023-04-20 18:54:31.869 [info] > git config --get commit.template [1ms]
+2023-04-20 18:54:31.872 [info] No remotes found in the git config file.
+2023-04-20 18:54:31.872 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-04-20 18:54:31.877 [info] > git status -z -uall [1ms]
+2023-04-20 18:54:32.395 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-20 18:55:10.908 [info] No remotes found in the git config file.
+2023-04-20 18:55:10.908 [info] > git config --get commit.template [7ms]
+2023-04-20 18:55:10.909 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-04-20 18:55:10.914 [info] > git status -z -uall [1ms]
+2023-04-20 18:55:16.219 [info] > git rev-parse --show-toplevel [2ms]
+2023-04-20 18:55:16.730 [info] > git check-ignore -v -z --stdin [3ms]
+2023-04-20 18:55:38.553 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [24ms]
+2023-04-20 18:55:38.557 [info] > git config --get commit.template [1ms]
+2023-04-20 18:55:38.565 [info] No remotes found in the git config file.
+2023-04-20 18:55:38.565 [info] > git config --get commit.template [4ms]
+2023-04-20 18:55:38.565 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-20 18:55:38.569 [info] > git status -z -uall [1ms]
+2023-04-20 18:55:38.756 [info] > git config --get commit.template [1ms]
+2023-04-20 18:55:38.760 [info] No remotes found in the git config file.
+2023-04-20 18:55:38.760 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-04-20 18:55:38.765 [info] > git status -z -uall [1ms]
+2023-04-20 18:56:12.338 [info] > git remote add origin https://github.com/JamoDevy/exchange-rate-site-3.git [5ms]
+2023-04-20 18:56:12.345 [info] > git config --get commit.template [1ms]
+2023-04-20 18:56:12.351 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-20 18:56:12.357 [info] > git status -z -uall [1ms]
+2023-04-20 18:56:13.301 [info] > git push -u origin master [937ms]
+2023-04-20 18:56:13.301 [info] To https://github.com/JamoDevy/exchange-rate-site-3.git
+ * [new branch]      master -> master
+2023-04-20 18:56:13.306 [info] > git config --get commit.template [0ms]
+2023-04-20 18:56:13.310 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-20 18:56:13.314 [info] > git status -z -uall [1ms]
+2023-04-20 18:56:14.412 [info] > git config --get commit.template [4ms]
+2023-04-20 18:56:14.420 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-04-20 18:56:14.425 [info] > git status -z -uall [1ms]
+2023-04-20 19:05:45.000 [info] > git config --get commit.template [1ms]
+2023-04-20 19:05:45.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:05:45.011 [info] > git status -z -uall [3ms]
+2023-04-20 19:07:02.484 [info] > git show --textconv :src/index.js [7ms]
+2023-04-20 19:07:02.484 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [1ms]
+2023-04-20 19:07:02.490 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [1ms]
+2023-04-20 19:07:49.890 [info] > git show --textconv :src/App.js [5ms]
+2023-04-20 19:07:49.890 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [1ms]
+2023-04-20 19:07:49.896 [info] > git cat-file -s 37845757234ccb68531c10cf7a2ffc589c47e342 [2ms]
+2023-04-20 19:07:55.781 [info] > git show --textconv :src/index.js [7ms]
+2023-04-20 19:07:55.782 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [2ms]
+2023-04-20 19:07:55.787 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [0ms]
+2023-04-20 19:08:44.910 [info] > git show --textconv :src/App.js [6ms]
+2023-04-20 19:08:44.910 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [1ms]
+2023-04-20 19:08:44.917 [info] > git cat-file -s 37845757234ccb68531c10cf7a2ffc589c47e342 [2ms]
+2023-04-20 19:08:49.169 [info] > git show --textconv :src/index.js [7ms]
+2023-04-20 19:08:49.169 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [3ms]
+2023-04-20 19:08:49.176 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [2ms]
+2023-04-20 19:10:01.159 [info] > git config --get commit.template [1ms]
+2023-04-20 19:10:01.165 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:10:01.169 [info] > git status -z -uall [0ms]
+2023-04-20 19:11:07.385 [info] > git config --get commit.template [1ms]
+2023-04-20 19:11:07.391 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:11:07.395 [info] > git status -z -uall [1ms]
+2023-04-20 19:11:07.490 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [3ms]
+2023-04-20 19:11:07.498 [info] > git cat-file -s 2cf1b90c3288d9544a02b680c8efd7e714326c81 [2ms]
+2023-04-20 19:11:07.510 [info] > git show --textconv :src/index.js [0ms]
+2023-04-20 19:11:50.293 [info] > git config --get commit.template [1ms]
+2023-04-20 19:11:50.299 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:11:50.304 [info] > git status -z -uall [1ms]
+2023-04-20 19:11:50.392 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [1ms]
+2023-04-20 19:11:50.397 [info] > git cat-file -s 2cf1b90c3288d9544a02b680c8efd7e714326c81 [1ms]
+2023-04-20 19:11:50.407 [info] > git show --textconv :src/index.js [1ms]
+2023-04-20 19:15:46.248 [info] > git config --get commit.template [2ms]
+2023-04-20 19:15:46.255 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 19:15:46.260 [info] > git status -z -uall [1ms]
+2023-04-20 19:15:46.356 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [2ms]
+2023-04-20 19:15:46.361 [info] > git cat-file -s 2cf1b90c3288d9544a02b680c8efd7e714326c81 [1ms]
+2023-04-20 19:15:46.372 [info] > git show --textconv :src/index.js [1ms]
+2023-04-20 19:16:32.901 [info] > git show --textconv :package.json [6ms]
+2023-04-20 19:16:32.902 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/package.json [2ms]
+2023-04-20 19:16:32.909 [info] > git cat-file -s 1832eea48ca534c26aef4f81249b90f9486d1a7f [2ms]
+2023-04-20 19:16:39.262 [info] > git config --get commit.template [1ms]
+2023-04-20 19:16:39.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:16:39.271 [info] > git status -z -uall [1ms]
+2023-04-20 19:18:02.404 [info] > git config --get commit.template [4ms]
+2023-04-20 19:18:02.412 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [0ms]
+2023-04-20 19:18:02.419 [info] > git status -z -uall [0ms]
+2023-04-20 19:18:07.450 [info] > git config --get commit.template [9ms]
+2023-04-20 19:18:07.451 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 19:18:07.459 [info] > git status -z -uall [2ms]
+2023-04-20 19:18:57.665 [info] > git config --get commit.template [1ms]
+2023-04-20 19:18:57.669 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [0ms]
+2023-04-20 19:18:57.674 [info] > git status -z -uall [1ms]
+2023-04-20 19:19:22.171 [info] > git config --get commit.template [7ms]
+2023-04-20 19:19:22.171 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:19:22.177 [info] > git status -z -uall [1ms]
+2023-04-20 19:19:39.468 [info] > git config --get commit.template [2ms]
+2023-04-20 19:19:39.476 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:19:39.482 [info] > git status -z -uall [1ms]
+2023-04-20 19:19:46.622 [info] > git config --get commit.template [1ms]
+2023-04-20 19:19:46.629 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:19:46.634 [info] > git status -z -uall [1ms]
+2023-04-20 19:19:46.727 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-20 19:19:59.801 [info] > git show --textconv :src/App.js [8ms]
+2023-04-20 19:19:59.803 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [1ms]
+2023-04-20 19:19:59.810 [info] > git cat-file -s 37845757234ccb68531c10cf7a2ffc589c47e342 [1ms]
+2023-04-20 19:20:26.914 [info] > git config --get commit.template [10ms]
+2023-04-20 19:20:26.914 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:20:26.920 [info] > git status -z -uall [1ms]
+2023-04-20 19:20:38.728 [info] > git config --get commit.template [1ms]
+2023-04-20 19:20:38.734 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:20:38.739 [info] > git status -z -uall [1ms]
+2023-04-20 19:20:43.784 [info] > git config --get commit.template [1ms]
+2023-04-20 19:20:43.790 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:20:43.795 [info] > git status -z -uall [0ms]
+2023-04-20 19:21:27.895 [info] > git config --get commit.template [1ms]
+2023-04-20 19:21:27.900 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:21:27.904 [info] > git status -z -uall [1ms]
+2023-04-20 19:21:35.500 [info] > git config --get commit.template [4ms]
+2023-04-20 19:21:35.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:21:35.514 [info] > git status -z -uall [1ms]
+2023-04-20 19:21:40.549 [info] > git show --textconv :src/index.css [4ms]
+2023-04-20 19:21:40.550 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.css [1ms]
+2023-04-20 19:21:40.554 [info] > git cat-file -s ec2585e8c0bb8188184ed1e0703c4c8f2a8419b0 [0ms]
+2023-04-20 19:21:42.811 [info] > git show --textconv :src/App.css [4ms]
+2023-04-20 19:21:42.812 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [1ms]
+2023-04-20 19:21:42.820 [info] > git cat-file -s 74b5e053450a48a6bdb4d71aad648e7af821975c [0ms]
+2023-04-20 19:21:49.116 [info] > git config --get commit.template [1ms]
+2023-04-20 19:21:49.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:21:49.130 [info] > git status -z -uall [1ms]
+2023-04-20 19:22:20.551 [info] > git config --get commit.template [7ms]
+2023-04-20 19:22:20.551 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:22:20.555 [info] > git status -z -uall [0ms]
+2023-04-20 19:22:43.528 [info] > git config --get commit.template [1ms]
+2023-04-20 19:22:43.537 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 19:22:43.545 [info] > git status -z -uall [1ms]
+2023-04-20 19:24:07.311 [info] > git config --get commit.template [1ms]
+2023-04-20 19:24:07.320 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 19:24:07.328 [info] > git status -z -uall [1ms]
+2023-04-20 19:24:27.932 [info] > git config --get commit.template [1ms]
+2023-04-20 19:24:27.937 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [0ms]
+2023-04-20 19:24:27.943 [info] > git status -z -uall [1ms]
+2023-04-20 19:24:32.958 [info] > git config --get commit.template [2ms]
+2023-04-20 19:24:32.966 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:24:32.972 [info] > git status -z -uall [1ms]
+2023-04-20 19:26:03.678 [info] > git show --textconv :public/404.html [5ms]
+2023-04-20 19:26:03.678 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/404.html [1ms]
+2023-04-20 19:26:03.915 [info] > git check-ignore -v -z --stdin [2ms]
+2023-04-20 19:26:04.516 [info] > git config --get commit.template [8ms]
+2023-04-20 19:26:04.516 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:26:04.523 [info] > git status -z -uall [2ms]
+2023-04-20 19:26:17.053 [info] > git config --get commit.template [2ms]
+2023-04-20 19:26:17.061 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:26:17.067 [info] > git status -z -uall [1ms]
+2023-04-20 19:27:53.628 [info] > git show --textconv :public/index.html [8ms]
+2023-04-20 19:27:53.629 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/index.html [2ms]
+2023-04-20 19:27:53.637 [info] > git cat-file -s aa069f27cbd9d53394428171c3989fd03db73c76 [2ms]
+2023-04-20 19:28:00.672 [info] > git config --get commit.template [5ms]
+2023-04-20 19:28:00.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:28:00.679 [info] > git status -z -uall [3ms]
+2023-04-20 19:28:18.734 [info] > git config --get commit.template [1ms]
+2023-04-20 19:28:18.743 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [3ms]
+2023-04-20 19:28:18.750 [info] > git status -z -uall [1ms]
+2023-04-20 19:28:23.766 [info] > git config --get commit.template [1ms]
+2023-04-20 19:28:23.771 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:28:23.776 [info] > git status -z -uall [1ms]
+2023-04-20 19:28:28.785 [info] > git config --get commit.template [1ms]
+2023-04-20 19:28:28.793 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:28:28.800 [info] > git status -z -uall [1ms]
+2023-04-20 19:28:40.361 [info] > git config --get commit.template [0ms]
+2023-04-20 19:28:40.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:28:40.376 [info] > git status -z -uall [1ms]
+2023-04-20 19:28:45.397 [info] > git config --get commit.template [4ms]
+2023-04-20 19:28:45.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:28:45.408 [info] > git status -z -uall [0ms]
+2023-04-20 19:28:50.416 [info] > git config --get commit.template [1ms]
+2023-04-20 19:28:50.421 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:28:50.425 [info] > git status -z -uall [1ms]
+2023-04-20 19:29:12.449 [info] > git config --get commit.template [9ms]
+2023-04-20 19:29:12.450 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:29:12.457 [info] > git status -z -uall [1ms]
+2023-04-20 19:29:17.524 [info] > git config --get commit.template [9ms]
+2023-04-20 19:29:17.525 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:29:17.531 [info] > git status -z -uall [1ms]
+2023-04-20 19:29:45.400 [info] > git config --get commit.template [1ms]
+2023-04-20 19:29:45.405 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:29:45.410 [info] > git status -z -uall [2ms]
+2023-04-20 19:30:08.623 [info] > git config --get commit.template [1ms]
+2023-04-20 19:30:08.627 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:30:08.631 [info] > git status -z -uall [1ms]
+2023-04-20 19:30:25.823 [info] > git config --get commit.template [1ms]
+2023-04-20 19:30:25.833 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:30:25.839 [info] > git status -z -uall [1ms]
+2023-04-20 19:30:30.854 [info] > git config --get commit.template [0ms]
+2023-04-20 19:30:30.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 19:30:30.867 [info] > git status -z -uall [1ms]
+2023-04-20 19:30:37.974 [info] > git config --get commit.template [0ms]
+2023-04-20 19:30:37.978 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:30:37.982 [info] > git status -z -uall [1ms]
+2023-04-20 19:30:43.021 [info] > git config --get commit.template [8ms]
+2023-04-20 19:30:43.022 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 19:30:43.030 [info] > git status -z -uall [2ms]
+2023-04-20 19:30:55.880 [info] > git add -A -- . [25ms]
+2023-04-20 19:30:55.893 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [8ms]
+2023-04-20 19:30:55.903 [info] > git config --get commit.template [4ms]
+2023-04-20 19:30:55.915 [info] > git config --get commit.template [0ms]
+2023-04-20 19:30:55.922 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:30:55.930 [info] > git status -z -uall [1ms]
+2023-04-20 19:30:56.035 [info] > git config --get commit.template [1ms]
+2023-04-20 19:30:56.045 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:30:56.052 [info] > git status -z -uall [1ms]
+2023-04-20 19:30:57.078 [info] > git config --get commit.template [1ms]
+2023-04-20 19:30:57.085 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:30:57.091 [info] > git status -z -uall [1ms]
+2023-04-20 19:30:57.218 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/index.html [1ms]
+2023-04-20 19:30:57.223 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/404.html [11ms]
+2023-04-20 19:30:57.228 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [22ms]
+2023-04-20 19:30:57.232 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [32ms]
+2023-04-20 19:30:57.237 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/package.json [43ms]
+2023-04-20 19:30:57.242 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [55ms]
+2023-04-20 19:30:57.248 [info] > git cat-file -s f2625576409f4ab336d48b3a7bee2a6a5e89d1c7 [5ms]
+2023-04-20 19:30:57.248 [info] > git cat-file -s a3eb68cb267d5df097fceb5159c82997be078658 [12ms]
+2023-04-20 19:30:57.248 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [16ms]
+2023-04-20 19:30:57.248 [info] > git cat-file -s 055bf006c14ef58b99e26d95f4ca4076e9a4b095 [20ms]
+2023-04-20 19:30:57.249 [info] > git cat-file -s 859a98fbcb27b532ad5f593eac558ee082eb9252 [25ms]
+2023-04-20 19:30:57.249 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [3ms]
+2023-04-20 19:30:57.289 [info] > git show --textconv :package.json [29ms]
+2023-04-20 19:30:57.289 [info] > git show --textconv :src/App.js [24ms]
+2023-04-20 19:30:57.289 [info] > git show --textconv :src/App.css [20ms]
+2023-04-20 19:30:57.289 [info] > git show --textconv :public/404.html [15ms]
+2023-04-20 19:30:57.289 [info] > git show --textconv :public/index.html [8ms]
+2023-04-20 19:30:57.289 [info] > git show --textconv :src/index.js [1ms]
+2023-04-20 19:30:57.299 [info] > git log --oneline --cherry gh-pages...gh-pages@{upstream} -- [1ms]
+2023-04-20 19:30:57.812 [info] > git pull --tags origin gh-pages [506ms]
+2023-04-20 19:30:57.812 [info] From https://github.com/JamoDevy/exchange-rate-site-3
+ * branch            gh-pages   -> FETCH_HEAD
+   eed38f4..5a8d0e0  gh-pages   -> origin/gh-pages
+2023-04-20 19:30:57.819 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:30:57.908 [info] > git status -z -uall [85ms] (cancelled)
+2023-04-20 19:30:57.909 [info] > git check-ignore -v -z --stdin [3ms]
+2023-04-20 19:30:59.131 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/404.html [6ms]
+2023-04-20 19:30:59.140 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [21ms]
+2023-04-20 19:30:59.149 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [34ms]
+2023-04-20 19:30:59.158 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/package.json [48ms]
+2023-04-20 19:30:59.166 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [61ms]
+2023-04-20 19:30:59.174 [info] > git cat-file -s 1832eea48ca534c26aef4f81249b90f9486d1a7f [8ms]
+2023-04-20 19:30:59.174 [info] > git cat-file -s 37845757234ccb68531c10cf7a2ffc589c47e342 [17ms]
+2023-04-20 19:30:59.174 [info] > git cat-file -s 74b5e053450a48a6bdb4d71aad648e7af821975c [26ms]
+2023-04-20 19:30:59.175 [info] > git cat-file -s 055bf006c14ef58b99e26d95f4ca4076e9a4b095 [37ms]
+2023-04-20 19:30:59.175 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/index.html [46ms]
+2023-04-20 19:30:59.199 [info] > git cat-file -s 2cf1b90c3288d9544a02b680c8efd7e714326c81 [27ms]
+2023-04-20 19:30:59.218 [info] > git show --textconv :package.json [13ms]
+2023-04-20 19:30:59.218 [info] > git show --textconv :src/App.js [8ms]
+2023-04-20 19:30:59.218 [info] > git show --textconv :src/App.css [4ms]
+2023-04-20 19:30:59.219 [info] > git cat-file -s aa069f27cbd9d53394428171c3989fd03db73c76 [39ms]
+2023-04-20 19:30:59.219 [info] > git show --textconv :public/404.html [1ms]
+2023-04-20 19:30:59.236 [info] > git show --textconv :src/index.js [5ms]
+2023-04-20 19:30:59.236 [info] > git show --textconv :public/index.html [0ms]
+2023-04-20 19:31:23.499 [info] > git check-ignore -v -z --stdin [0ms]
+2023-04-20 19:31:29.190 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [5ms]
+2023-04-20 19:31:29.190 [info] error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+2023-04-20 19:31:29.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:31:29.391 [info] > git status -z -uall [181ms] (cancelled)
+2023-04-20 19:31:56.429 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/404.html [6ms]
+2023-04-20 19:31:56.434 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [15ms]
+2023-04-20 19:31:56.437 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [22ms]
+2023-04-20 19:31:56.441 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/package.json [35ms]
+2023-04-20 19:31:56.444 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [43ms]
+2023-04-20 19:31:56.448 [info] > git cat-file -s f2625576409f4ab336d48b3a7bee2a6a5e89d1c7 [4ms]
+2023-04-20 19:31:56.449 [info] > git cat-file -s a3eb68cb267d5df097fceb5159c82997be078658 [8ms]
+2023-04-20 19:31:56.449 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [12ms]
+2023-04-20 19:31:56.450 [info] > git cat-file -s 055bf006c14ef58b99e26d95f4ca4076e9a4b095 [16ms]
+2023-04-20 19:31:56.450 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/index.html [23ms]
+2023-04-20 19:31:56.454 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [7ms]
+2023-04-20 19:31:56.455 [info] > git cat-file -s 859a98fbcb27b532ad5f593eac558ee082eb9252 [1ms]
+2023-04-20 19:31:56.489 [info] > git show --textconv :package.json [26ms]
+2023-04-20 19:31:56.489 [info] > git show --textconv :src/App.js [21ms]
+2023-04-20 19:31:56.489 [info] > git show --textconv :src/App.css [17ms]
+2023-04-20 19:31:56.489 [info] > git show --textconv :public/404.html [13ms]
+2023-04-20 19:31:56.489 [info] > git show --textconv :src/index.js [5ms]
+2023-04-20 19:31:56.492 [info] > git show --textconv :public/index.html [4ms]
+2023-04-20 19:33:17.019 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/404.html [9ms]
+2023-04-20 19:33:17.024 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [19ms]
+2023-04-20 19:33:17.028 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [28ms]
+2023-04-20 19:33:17.031 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/package.json [37ms]
+2023-04-20 19:33:17.035 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [49ms]
+2023-04-20 19:33:17.039 [info] > git cat-file -s f2625576409f4ab336d48b3a7bee2a6a5e89d1c7 [4ms]
+2023-04-20 19:33:17.040 [info] > git cat-file -s a3eb68cb267d5df097fceb5159c82997be078658 [9ms]
+2023-04-20 19:33:17.041 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [13ms]
+2023-04-20 19:33:17.041 [info] > git cat-file -s 055bf006c14ef58b99e26d95f4ca4076e9a4b095 [17ms]
+2023-04-20 19:33:17.041 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/index.html [26ms]
+2023-04-20 19:33:17.046 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [8ms]
+2023-04-20 19:33:17.047 [info] > git cat-file -s 859a98fbcb27b532ad5f593eac558ee082eb9252 [1ms]
+2023-04-20 19:33:17.082 [info] > git show --textconv :package.json [28ms]
+2023-04-20 19:33:17.082 [info] > git show --textconv :src/App.js [23ms]
+2023-04-20 19:33:17.082 [info] > git show --textconv :src/App.css [18ms]
+2023-04-20 19:33:17.082 [info] > git show --textconv :public/404.html [12ms]
+2023-04-20 19:33:17.082 [info] > git show --textconv :src/index.js [6ms]
+2023-04-20 19:33:17.086 [info] > git show --textconv :public/index.html [5ms]
+2023-04-20 19:35:51.087 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/404.html [9ms]
+2023-04-20 19:35:51.093 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [20ms]
+2023-04-20 19:35:51.097 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [31ms]
+2023-04-20 19:35:51.101 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/package.json [40ms]
+2023-04-20 19:35:51.105 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [49ms]
+2023-04-20 19:35:51.110 [info] > git cat-file -s f2625576409f4ab336d48b3a7bee2a6a5e89d1c7 [5ms]
+2023-04-20 19:35:51.110 [info] > git cat-file -s a3eb68cb267d5df097fceb5159c82997be078658 [9ms]
+2023-04-20 19:35:51.111 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [14ms]
+2023-04-20 19:35:51.112 [info] > git cat-file -s 055bf006c14ef58b99e26d95f4ca4076e9a4b095 [20ms]
+2023-04-20 19:35:51.112 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/index.html [28ms]
+2023-04-20 19:35:51.117 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [8ms]
+2023-04-20 19:35:51.119 [info] > git cat-file -s 859a98fbcb27b532ad5f593eac558ee082eb9252 [2ms]
+2023-04-20 19:35:51.159 [info] > git show --textconv :package.json [32ms]
+2023-04-20 19:35:51.159 [info] > git show --textconv :src/App.js [26ms]
+2023-04-20 19:35:51.159 [info] > git show --textconv :src/App.css [20ms]
+2023-04-20 19:35:51.160 [info] > git show --textconv :public/404.html [14ms]
+2023-04-20 19:35:51.160 [info] > git show --textconv :src/index.js [7ms]
+2023-04-20 19:35:51.164 [info] > git show --textconv :public/index.html [5ms]
+2023-04-20 19:36:00.354 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/404.html [11ms]
+2023-04-20 19:36:00.363 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [29ms]
+2023-04-20 19:36:00.370 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [43ms]
+2023-04-20 19:36:00.377 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/package.json [61ms]
+2023-04-20 19:36:00.383 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [76ms]
+2023-04-20 19:36:00.391 [info] > git cat-file -s f2625576409f4ab336d48b3a7bee2a6a5e89d1c7 [8ms]
+2023-04-20 19:36:00.392 [info] > git cat-file -s a3eb68cb267d5df097fceb5159c82997be078658 [16ms]
+2023-04-20 19:36:00.393 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [23ms]
+2023-04-20 19:36:00.394 [info] > git cat-file -s 055bf006c14ef58b99e26d95f4ca4076e9a4b095 [31ms]
+2023-04-20 19:36:00.395 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/index.html [42ms]
+2023-04-20 19:36:00.402 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [13ms]
+2023-04-20 19:36:00.404 [info] > git cat-file -s 859a98fbcb27b532ad5f593eac558ee082eb9252 [2ms]
+2023-04-20 19:36:00.454 [info] > git show --textconv :package.json [38ms]
+2023-04-20 19:36:00.454 [info] > git show --textconv :src/App.js [29ms]
+2023-04-20 19:36:00.454 [info] > git show --textconv :src/App.css [21ms]
+2023-04-20 19:36:00.454 [info] > git show --textconv :public/404.html [11ms]
+2023-04-20 19:36:00.468 [info] > git show --textconv :src/index.js [15ms]
+2023-04-20 19:36:00.474 [info] > git show --textconv :public/index.html [7ms]
+2023-04-20 19:36:04.297 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [73ms]
+2023-04-20 19:36:04.306 [info] > git config --get-all user.name [0ms]
+2023-04-20 19:36:04.314 [info] > git config --get-all user.email [1ms]
+2023-04-20 19:36:04.330 [info] > git config --get commit.template [9ms]
+2023-04-20 19:36:04.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [0ms]
+2023-04-20 19:36:04.401 [info] > git status -z -uall [64ms]
+2023-04-20 19:36:05.993 [info] > git config --get commit.template [1ms]
+2023-04-20 19:36:06.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 19:36:06.117 [info] > git status -z -uall [103ms]
+2023-04-20 19:36:06.641 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [43ms]
+2023-04-20 19:36:06.652 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [93ms]
+2023-04-20 19:36:06.668 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/package.json [119ms]
+2023-04-20 19:36:06.684 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [144ms]
+2023-04-20 19:36:06.702 [info] > git cat-file -s f2625576409f4ab336d48b3a7bee2a6a5e89d1c7 [18ms]
+2023-04-20 19:36:06.705 [info] > git cat-file -s a3eb68cb267d5df097fceb5159c82997be078658 [38ms]
+2023-04-20 19:36:06.706 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [55ms]
+2023-04-20 19:36:06.707 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/404.html [77ms]
+2023-04-20 19:36:06.721 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/index.html [80ms]
+2023-04-20 19:36:06.736 [info] > git cat-file -s 055bf006c14ef58b99e26d95f4ca4076e9a4b095 [16ms]
+2023-04-20 19:36:06.737 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [38ms]
+2023-04-20 19:36:06.738 [info] > git cat-file -s 859a98fbcb27b532ad5f593eac558ee082eb9252 [4ms]
+2023-04-20 19:36:06.819 [info] > git show --textconv :package.json [66ms]
+2023-04-20 19:36:06.820 [info] > git show --textconv :src/App.js [48ms]
+2023-04-20 19:36:06.820 [info] > git show --textconv :src/App.css [30ms]
+2023-04-20 19:36:06.820 [info] > git show --textconv :public/404.html [15ms]
+2023-04-20 19:36:06.836 [info] > git show --textconv :src/index.js [17ms]
+2023-04-20 19:36:06.842 [info] > git show --textconv :public/index.html [8ms]
+2023-04-20 19:36:07.034 [info] > git check-ignore -v -z --stdin [41ms]
+2023-04-20 19:36:09.762 [info] > git log --oneline --cherry gh-pages...gh-pages@{upstream} -- [3ms]
+2023-04-20 19:36:10.066 [info] > git pull --tags origin gh-pages [294ms]
+2023-04-20 19:36:10.066 [info] From https://github.com/JamoDevy/exchange-rate-site-3
+ * branch              gh-pages   -> FETCH_HEAD
+2023-04-20 19:36:11.361 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/404.html [9ms]
+2023-04-20 19:36:11.369 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [25ms]
+2023-04-20 19:36:11.376 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [40ms]
+2023-04-20 19:36:11.383 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/package.json [54ms]
+2023-04-20 19:36:11.391 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [70ms]
+2023-04-20 19:36:11.399 [info] > git cat-file -s f2625576409f4ab336d48b3a7bee2a6a5e89d1c7 [9ms]
+2023-04-20 19:36:11.400 [info] > git cat-file -s a3eb68cb267d5df097fceb5159c82997be078658 [18ms]
+2023-04-20 19:36:11.400 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [24ms]
+2023-04-20 19:36:11.400 [info] > git cat-file -s 055bf006c14ef58b99e26d95f4ca4076e9a4b095 [32ms]
+2023-04-20 19:36:11.400 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/index.html [40ms]
+2023-04-20 19:36:11.408 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [9ms]
+2023-04-20 19:36:11.409 [info] > git cat-file -s 859a98fbcb27b532ad5f593eac558ee082eb9252 [2ms]
+2023-04-20 19:36:11.459 [info] > git show --textconv :package.json [38ms]
+2023-04-20 19:36:11.459 [info] > git show --textconv :src/App.js [31ms]
+2023-04-20 19:36:11.459 [info] > git show --textconv :src/App.css [24ms]
+2023-04-20 19:36:11.459 [info] > git show --textconv :public/404.html [15ms]
+2023-04-20 19:36:11.459 [info] > git show --textconv :src/index.js [8ms]
+2023-04-20 19:36:11.463 [info] > git show --textconv :public/index.html [5ms]
+2023-04-20 19:36:18.884 [info] > git push origin gh-pages:gh-pages [8807ms]
+2023-04-20 19:36:18.885 [info] remote: Resolving deltas:   0% (0/5160)        remote: Resolving deltas:   1% (52/5160)        remote: Resolving deltas:   2% (104/5160)        remote: Resolving deltas:   3% (155/5160)        remote: Resolving deltas:   4% (207/5160)        remote: Resolving deltas:   5% (258/5160)        remote: Resolving deltas:   6% (310/5160)        remote: Resolving deltas:   7% (362/5160)        remote: Resolving deltas:   8% (413/5160)        remote: Resolving deltas:   9% (465/5160)        remote: Resolving deltas:  10% (516/5160)        remote: Resolving deltas:  11% (568/5160)        remote: Resolving deltas:  12% (620/5160)        remote: Resolving deltas:  13% (671/5160)        remote: Resolving deltas:  14% (723/5160)        remote: Resolving deltas:  15% (774/5160)        remote: Resolving deltas:  16% (826/5160)        remote: Resolving deltas:  17% (878/5160)        remote: Resolving deltas:  18% (929/5160)        remote: Resolving deltas:  19% (981/5160)        remote: Resolving deltas:  20% (1032/5160)        remote: Resolving deltas:  21% (1084/5160)        remote: Resolving deltas:  22% (1136/5160)        remote: Resolving deltas:  23% (1187/5160)        remote: Resolving deltas:  24% (1239/5160)        remote: Resolving deltas:  25% (1290/5160)        remote: Resolving deltas:  26% (1342/5160)        remote: Resolving deltas:  27% (1394/5160)        remote: Resolving deltas:  28% (1445/5160)        remote: Resolving deltas:  29% (1497/5160)        remote: Resolving deltas:  30% (1548/5160)        remote: Resolving deltas:  31% (1600/5160)        remote: Resolving deltas:  32% (1652/5160)        remote: Resolving deltas:  33% (1703/5160)        remote: Resolving deltas:  34% (1755/5160)        remote: Resolving deltas:  35% (1806/5160)        remote: Resolving deltas:  36% (1858/5160)        remote: Resolving deltas:  37% (1910/5160)        remote: Resolving deltas:  38% (1961/5160)        remote: Resolving deltas:  39% (2013/5160)        remote: Resolving deltas:  40% (2064/5160)        remote: Resolving deltas:  41% (2116/5160)        remote: Resolving deltas:  42% (2168/5160)        remote: Resolving deltas:  43% (2219/5160)        remote: Resolving deltas:  44% (2271/5160)        remote: Resolving deltas:  45% (2322/5160)        remote: Resolving deltas:  46% (2374/5160)        remote: Resolving deltas:  47% (2426/5160)        remote: Resolving deltas:  48% (2477/5160)        remote: Resolving deltas:  49% (2529/5160)        remote: Resolving deltas:  50% (2580/5160)        remote: Resolving deltas:  51% (2632/5160)        remote: Resolving deltas:  52% (2684/5160)        remote: Resolving deltas:  53% (2735/5160)        remote: Resolving deltas:  54% (2787/5160)        remote: Resolving deltas:  55% (2838/5160)        remote: Resolving deltas:  56% (2890/5160)        remote: Resolving deltas:  57% (2942/5160)        remote: Resolving deltas:  58% (2993/5160)        remote: Resolving deltas:  59% (3045/5160)        remote: Resolving deltas:  60% (3096/5160)        remote: Resolving deltas:  61% (3148/5160)        remote: Resolving deltas:  62% (3200/5160)        remote: Resolving deltas:  63% (3251/5160)        remote: Resolving deltas:  64% (3303/5160)        remote: Resolving deltas:  65% (3354/5160)        remote: Resolving deltas:  66% (3406/5160)        remote: Resolving deltas:  67% (3458/5160)        remote: Resolving deltas:  68% (3509/5160)        remote: Resolving deltas:  69% (3561/5160)        remote: Resolving deltas:  70% (3612/5160)        remote: Resolving deltas:  71% (3664/5160)        remote: Resolving deltas:  72% (3716/5160)        remote: Resolving deltas:  73% (3767/5160)        remote: Resolving deltas:  74% (3819/5160)        remote: Resolving deltas:  75% (3870/5160)        remote: Resolving deltas:  76% (3922/5160)        remote: Resolving deltas:  77% (3974/5160)        remote: Resolving deltas:  78% (4025/5160)        remote: Resolving deltas:  79% (4077/5160)        remote: Resolving deltas:  80% (4128/5160)        remote: Resolving deltas:  81% (4180/5160)        remote: Resolving deltas:  82% (4232/5160)        remote: Resolving deltas:  83% (4283/5160)        remote: Resolving deltas:  84% (4335/5160)        remote: Resolving deltas:  85% (4386/5160)        remote: Resolving deltas:  86% (4438/5160)        remote: Resolving deltas:  87% (4490/5160)        remote: Resolving deltas:  88% (4541/5160)        remote: Resolving deltas:  89% (4593/5160)        remote: Resolving deltas:  90% (4644/5160)        remote: Resolving deltas:  91% (4696/5160)        remote: Resolving deltas:  92% (4748/5160)        remote: Resolving deltas:  93% (4799/5160)        remote: Resolving deltas:  94% (4851/5160)        remote: Resolving deltas:  95% (4902/5160)        remote: Resolving deltas:  96% (4954/5160)        remote: Resolving deltas:  97% (5006/5160)        remote: Resolving deltas:  98% (5057/5160)        remote: Resolving deltas:  99% (5109/5160)        remote: Resolving deltas: 100% (5160/5160)        remote: Resolving deltas: 100% (5160/5160), completed with 5 local objects.        
+To https://github.com/JamoDevy/exchange-rate-site-3.git
+   5a8d0e09..33e400f9  gh-pages -> gh-pages
+2023-04-20 19:36:18.899 [info] > git config --get commit.template [6ms]
+2023-04-20 19:36:18.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:36:18.966 [info] > git status -z -uall [60ms]
+2023-04-20 19:36:19.598 [info] > git check-ignore -v -z --stdin [17ms]
+2023-04-20 19:36:20.112 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/404.html [7ms]
+2023-04-20 19:36:20.118 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [17ms]
+2023-04-20 19:36:20.122 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [28ms]
+2023-04-20 19:36:20.127 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/package.json [42ms]
+2023-04-20 19:36:20.131 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [52ms]
+2023-04-20 19:36:20.137 [info] > git cat-file -s f2625576409f4ab336d48b3a7bee2a6a5e89d1c7 [6ms]
+2023-04-20 19:36:20.137 [info] > git cat-file -s a3eb68cb267d5df097fceb5159c82997be078658 [10ms]
+2023-04-20 19:36:20.137 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [15ms]
+2023-04-20 19:36:20.137 [info] > git cat-file -s 055bf006c14ef58b99e26d95f4ca4076e9a4b095 [20ms]
+2023-04-20 19:36:20.138 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/public/index.html [27ms]
+2023-04-20 19:36:20.144 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [7ms]
+2023-04-20 19:36:20.144 [info] > git cat-file -s 859a98fbcb27b532ad5f593eac558ee082eb9252 [1ms]
+2023-04-20 19:36:20.185 [info] > git show --textconv :package.json [30ms]
+2023-04-20 19:36:20.185 [info] > git show --textconv :src/App.js [23ms]
+2023-04-20 19:36:20.185 [info] > git show --textconv :src/App.css [17ms]
+2023-04-20 19:36:20.185 [info] > git show --textconv :public/404.html [11ms]
+2023-04-20 19:36:20.185 [info] > git show --textconv :src/index.js [6ms]
+2023-04-20 19:36:20.190 [info] > git show --textconv :public/index.html [6ms]
+2023-04-20 19:36:26.296 [info] > git check-ignore -v -z --stdin [9ms]
+2023-04-20 19:38:23.383 [info] > git show --textconv :src/index.js [9ms]
+2023-04-20 19:38:23.387 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [5ms]
+2023-04-20 19:38:23.395 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [2ms]
+2023-04-20 19:38:43.451 [info] > git config --get commit.template [2ms]
+2023-04-20 19:38:43.461 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-20 19:38:43.475 [info] > git status -z -uall [6ms]
+2023-04-20 19:38:43.557 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [1ms]
+2023-04-20 19:38:43.565 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [1ms]
+2023-04-20 19:38:43.581 [info] > git show --textconv :src/index.js [1ms]
+2023-04-20 19:38:58.673 [info] > git config --get commit.template [1ms]
+2023-04-20 19:38:58.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-04-20 19:38:58.695 [info] > git status -z -uall [1ms]
+2023-04-20 19:38:58.775 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [1ms]
+2023-04-20 19:38:58.782 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [1ms]
+2023-04-20 19:38:58.798 [info] > git show --textconv :src/index.js [1ms]
+2023-04-20 19:39:10.169 [info] > git config --get commit.template [1ms]
+2023-04-20 19:39:10.180 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2023-04-20 19:39:10.188 [info] > git status -z -uall [1ms]
+2023-04-20 19:39:10.283 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [4ms]
+2023-04-20 19:39:10.290 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [0ms]
+2023-04-20 19:39:10.303 [info] > git show --textconv :src/index.js [1ms]
+2023-04-20 19:39:27.487 [info] > git show --textconv :src/App.js [9ms]
+2023-04-20 19:39:27.488 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [2ms]
+2023-04-20 19:39:27.496 [info] > git cat-file -s 37845757234ccb68531c10cf7a2ffc589c47e342 [1ms]
+2023-04-20 19:40:24.933 [info] > git config --get commit.template [7ms]
+2023-04-20 19:40:24.934 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:40:25.027 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [4ms]
+2023-04-20 19:40:25.035 [info] > git cat-file -s a3eb68cb267d5df097fceb5159c82997be078658 [1ms]
+2023-04-20 19:40:25.051 [info] > git show --textconv :src/App.js [5ms]
+2023-04-20 19:40:25.301 [info] > git status -z -uall [361ms]
+2023-04-20 19:40:44.960 [info] > git config --get commit.template [1ms]
+2023-04-20 19:40:44.967 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-04-20 19:40:44.978 [info] > git status -z -uall [5ms]
+2023-04-20 19:40:45.065 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [3ms]
+2023-04-20 19:40:45.075 [info] > git cat-file -s 37845757234ccb68531c10cf7a2ffc589c47e342 [3ms]
+2023-04-20 19:40:45.115 [info] > git show --textconv :src/App.js [2ms]
+2023-04-20 19:43:35.002 [info] > git config --get commit.template [2ms]
+2023-04-20 19:43:35.012 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:43:35.101 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [5ms]
+2023-04-20 19:43:35.107 [info] > git cat-file -s a3eb68cb267d5df097fceb5159c82997be078658 [1ms]
+2023-04-20 19:43:35.120 [info] > git show --textconv :src/App.js [4ms]
+2023-04-20 19:43:35.382 [info] > git status -z -uall [365ms]
+2023-04-20 19:43:56.965 [info] > git check-ignore -v -z --stdin [46ms]
+2023-04-20 19:44:51.421 [info] > git config --get commit.template [4ms]
+2023-04-20 19:44:51.430 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:44:51.779 [info] > git status -z -uall [344ms]
+2023-04-20 19:45:21.364 [info] > git show --textconv :src/index.js [11ms]
+2023-04-20 19:45:21.370 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [7ms]
+2023-04-20 19:45:21.379 [info] > git cat-file -s d563c0fb10ba0e42724b21286eb546ee4e5734fc [3ms]
+2023-04-20 19:45:30.351 [info] > git config --get commit.template [9ms]
+2023-04-20 19:45:30.351 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 19:45:30.735 [info] > git status -z -uall [379ms]
+2023-04-20 19:45:35.798 [info] > git config --get commit.template [1ms]
+2023-04-20 19:45:35.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:45:36.148 [info] > git status -z -uall [338ms]
+2023-04-20 19:45:48.004 [info] > git config --get commit.template [2ms]
+2023-04-20 19:45:48.013 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:45:48.363 [info] > git status -z -uall [345ms]
+2023-04-20 19:46:01.136 [info] > git config --get commit.template [1ms]
+2023-04-20 19:46:01.143 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:46:01.476 [info] > git status -z -uall [329ms]
+2023-04-20 19:46:22.477 [info] > git config --get commit.template [11ms]
+2023-04-20 19:46:22.477 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [0ms]
+2023-04-20 19:46:22.879 [info] > git status -z -uall [395ms]
+2023-04-20 19:46:24.526 [info] > git check-ignore -v -z --stdin [40ms]
+2023-04-20 19:46:26.626 [info] > git check-ignore -v -z --stdin [27ms]
+2023-04-20 19:46:31.782 [info] > git check-ignore -v -z --stdin [144ms]
+2023-04-20 19:46:42.010 [info] > git add -A -- . [694ms]
+2023-04-20 19:46:42.071 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [56ms]
+2023-04-20 19:46:42.078 [info] > git config --get commit.template [1ms]
+2023-04-20 19:46:42.092 [info] > git config --get commit.template [7ms]
+2023-04-20 19:46:42.093 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 19:46:42.161 [info] > git status -z -uall [63ms]
+2023-04-20 19:46:42.362 [info] > git config --get commit.template [2ms]
+2023-04-20 19:46:42.369 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:46:42.433 [info] > git status -z -uall [59ms]
+2023-04-20 19:46:43.486 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [6ms]
+2023-04-20 19:46:43.494 [info] > git cat-file -s 8e5eee467495d3af7bfedae72713958f9cb0c1cd [1ms]
+2023-04-20 19:46:43.515 [info] > git show --textconv :src/index.js [5ms]
+2023-04-20 19:46:43.788 [info] > git log --oneline --cherry gh-pages...gh-pages@{upstream} -- [1ms]
+2023-04-20 19:46:44.050 [info] > git pull --tags origin gh-pages [254ms]
+2023-04-20 19:46:44.050 [info] From https://github.com/JamoDevy/exchange-rate-site-3
+ * branch              gh-pages   -> FETCH_HEAD
+2023-04-20 19:46:45.315 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [5ms]
+2023-04-20 19:46:45.321 [info] > git cat-file -s 8e5eee467495d3af7bfedae72713958f9cb0c1cd [1ms]
+2023-04-20 19:46:45.340 [info] > git show --textconv :src/index.js [5ms]
+2023-04-20 19:46:45.494 [info] > git push origin gh-pages:gh-pages [1439ms]
+2023-04-20 19:46:45.494 [info] remote: Resolving deltas:   0% (0/95)        remote: Resolving deltas:   1% (1/95)        remote: Resolving deltas:   2% (2/95)        remote: Resolving deltas:   3% (3/95)        remote: Resolving deltas:   4% (4/95)        remote: Resolving deltas:   5% (5/95)        remote: Resolving deltas:   6% (6/95)        remote: Resolving deltas:   7% (7/95)        remote: Resolving deltas:   8% (8/95)        remote: Resolving deltas:   9% (9/95)        remote: Resolving deltas:  10% (10/95)        remote: Resolving deltas:  11% (11/95)        remote: Resolving deltas:  12% (12/95)        remote: Resolving deltas:  13% (13/95)        remote: Resolving deltas:  14% (14/95)        remote: Resolving deltas:  15% (15/95)        remote: Resolving deltas:  16% (16/95)        remote: Resolving deltas:  17% (17/95)        remote: Resolving deltas:  18% (18/95)        remote: Resolving deltas:  20% (19/95)        remote: Resolving deltas:  21% (20/95)        remote: Resolving deltas:  22% (21/95)        remote: Resolving deltas:  23% (22/95)        remote: Resolving deltas:  24% (23/95)        remote: Resolving deltas:  25% (24/95)        remote: Resolving deltas:  26% (25/95)        remote: Resolving deltas:  27% (26/95)        remote: Resolving deltas:  28% (27/95)        remote: Resolving deltas:  29% (28/95)        remote: Resolving deltas:  30% (29/95)        remote: Resolving deltas:  31% (30/95)        remote: Resolving deltas:  32% (31/95)        remote: Resolving deltas:  33% (32/95)        remote: Resolving deltas:  34% (33/95)        remote: Resolving deltas:  35% (34/95)        remote: Resolving deltas:  36% (35/95)        remote: Resolving deltas:  37% (36/95)        remote: Resolving deltas:  38% (37/95)        remote: Resolving deltas:  40% (38/95)        remote: Resolving deltas:  41% (39/95)        remote: Resolving deltas:  42% (40/95)        remote: Resolving deltas:  43% (41/95)        remote: Resolving deltas:  44% (42/95)        remote: Resolving deltas:  45% (43/95)        remote: Resolving deltas:  46% (44/95)        remote: Resolving deltas:  47% (45/95)        remote: Resolving deltas:  48% (46/95)        remote: Resolving deltas:  49% (47/95)        remote: Resolving deltas:  50% (48/95)        remote: Resolving deltas:  51% (49/95)        remote: Resolving deltas:  52% (50/95)        remote: Resolving deltas:  53% (51/95)        remote: Resolving deltas:  54% (52/95)        remote: Resolving deltas:  55% (53/95)        remote: Resolving deltas:  56% (54/95)        remote: Resolving deltas:  57% (55/95)        remote: Resolving deltas:  58% (56/95)        remote: Resolving deltas:  60% (57/95)        remote: Resolving deltas:  61% (58/95)        remote: Resolving deltas:  62% (59/95)        remote: Resolving deltas:  63% (60/95)        remote: Resolving deltas:  64% (61/95)        remote: Resolving deltas:  65% (62/95)        remote: Resolving deltas:  66% (63/95)        remote: Resolving deltas:  67% (64/95)        remote: Resolving deltas:  68% (65/95)        remote: Resolving deltas:  69% (66/95)        remote: Resolving deltas:  70% (67/95)        remote: Resolving deltas:  71% (68/95)        remote: Resolving deltas:  72% (69/95)        remote: Resolving deltas:  73% (70/95)        remote: Resolving deltas:  74% (71/95)        remote: Resolving deltas:  75% (72/95)        remote: Resolving deltas:  76% (73/95)        remote: Resolving deltas:  77% (74/95)        remote: Resolving deltas:  78% (75/95)        remote: Resolving deltas:  80% (76/95)        remote: Resolving deltas:  81% (77/95)        remote: Resolving deltas:  82% (78/95)        remote: Resolving deltas:  83% (79/95)        remote: Resolving deltas:  84% (80/95)        remote: Resolving deltas:  85% (81/95)        remote: Resolving deltas:  86% (82/95)        remote: Resolving deltas:  87% (83/95)        remote: Resolving deltas:  88% (84/95)        remote: Resolving deltas:  89% (85/95)        remote: Resolving deltas:  90% (86/95)        remote: Resolving deltas:  91% (87/95)        remote: Resolving deltas:  92% (88/95)        remote: Resolving deltas:  93% (89/95)        remote: Resolving deltas:  94% (90/95)        remote: Resolving deltas:  95% (91/95)        remote: Resolving deltas:  96% (92/95)        remote: Resolving deltas:  97% (93/95)        remote: Resolving deltas:  98% (94/95)        remote: Resolving deltas: 100% (95/95)        remote: Resolving deltas: 100% (95/95), completed with 6 local objects.        
+To https://github.com/JamoDevy/exchange-rate-site-3.git
+   33e400f9..0df69e8d  gh-pages -> gh-pages
+2023-04-20 19:46:45.501 [info] > git config --get commit.template [1ms]
+2023-04-20 19:46:45.508 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [0ms]
+2023-04-20 19:46:45.574 [info] > git status -z -uall [61ms]
+2023-04-20 19:46:46.693 [info] > git config --get commit.template [2ms]
+2023-04-20 19:46:46.699 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:46:46.764 [info] > git status -z -uall [60ms]
+2023-04-20 19:46:46.784 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [5ms]
+2023-04-20 19:46:46.790 [info] > git cat-file -s 8e5eee467495d3af7bfedae72713958f9cb0c1cd [1ms]
+2023-04-20 19:46:46.805 [info] > git show --textconv :src/index.js [5ms]
+2023-04-20 19:47:22.186 [info] > git config --get commit.template [1ms]
+2023-04-20 19:47:22.193 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:47:22.252 [info] > git status -z -uall [55ms]
+2023-04-20 19:47:43.282 [info] > git config --get commit.template [0ms]
+2023-04-20 19:47:43.290 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:47:43.369 [info] > git status -z -uall [73ms]
+2023-04-20 19:47:50.498 [info] > git config --get commit.template [1ms]
+2023-04-20 19:47:50.503 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:47:50.564 [info] > git status -z -uall [56ms]
+2023-04-20 19:48:04.614 [info] > git config --get commit.template [1ms]
+2023-04-20 19:48:04.626 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [2ms]
+2023-04-20 19:48:04.701 [info] > git status -z -uall [64ms]
+2023-04-20 19:48:06.632 [info] > git show --textconv :src/App.js [13ms]
+2023-04-20 19:48:06.636 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [7ms]
+2023-04-20 19:48:06.643 [info] > git cat-file -s a3eb68cb267d5df097fceb5159c82997be078658 [1ms]
+2023-04-20 19:48:11.486 [info] > git config --get commit.template [1ms]
+2023-04-20 19:48:11.495 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:48:11.560 [info] > git status -z -uall [59ms]
+2023-04-20 19:48:17.296 [info] > git config --get commit.template [2ms]
+2023-04-20 19:48:17.302 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [0ms]
+2023-04-20 19:48:17.365 [info] > git status -z -uall [58ms]
+2023-04-20 19:48:32.441 [info] > git show --textconv :src/App.css [6ms]
+2023-04-20 19:48:32.447 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [7ms]
+2023-04-20 19:48:32.454 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [0ms]
+2023-04-20 19:48:56.669 [info] > git add -A -- . [112ms]
+2023-04-20 19:48:56.720 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [44ms]
+2023-04-20 19:48:56.727 [info] > git config --get commit.template [0ms]
+2023-04-20 19:48:56.734 [info] > git config --get commit.template [1ms]
+2023-04-20 19:48:56.741 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:48:56.816 [info] > git status -z -uall [70ms]
+2023-04-20 19:48:56.918 [info] > git config --get commit.template [1ms]
+2023-04-20 19:48:56.927 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 19:48:57.014 [info] > git status -z -uall [78ms]
+2023-04-20 19:48:58.071 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [14ms]
+2023-04-20 19:48:58.084 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [38ms]
+2023-04-20 19:48:58.092 [info] > git cat-file -s 7fd83d829e57ead66f055a846a5fde8f6ff605fc [8ms]
+2023-04-20 19:48:58.093 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [24ms]
+2023-04-20 19:48:58.101 [info] > git cat-file -s 638d4abcb902ff6db4694bbbaa6917f856576f44 [10ms]
+2023-04-20 19:48:58.103 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [3ms]
+2023-04-20 19:48:58.136 [info] > git show --textconv :src/App.js [22ms]
+2023-04-20 19:48:58.136 [info] > git show --textconv :src/index.js [11ms]
+2023-04-20 19:48:58.141 [info] > git show --textconv :src/App.css [7ms]
+2023-04-20 19:48:58.699 [info] > git log --oneline --cherry gh-pages...gh-pages@{upstream} -- [1ms]
+2023-04-20 19:48:58.973 [info] > git pull --tags origin gh-pages [266ms]
+2023-04-20 19:48:58.973 [info] From https://github.com/JamoDevy/exchange-rate-site-3
+ * branch              gh-pages   -> FETCH_HEAD
+2023-04-20 19:48:59.911 [info] > git push origin gh-pages:gh-pages [933ms]
+2023-04-20 19:48:59.912 [info] remote: Resolving deltas:   0% (0/2)        remote: Resolving deltas:  50% (1/2)        remote: Resolving deltas: 100% (2/2)        remote: Resolving deltas: 100% (2/2), completed with 2 local objects.        
+To https://github.com/JamoDevy/exchange-rate-site-3.git
+   0df69e8d..212b6085  gh-pages -> gh-pages
+2023-04-20 19:48:59.923 [info] > git config --get commit.template [6ms]
+2023-04-20 19:48:59.924 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [0ms]
+2023-04-20 19:48:59.992 [info] > git status -z -uall [63ms]
+2023-04-20 19:49:01.114 [info] > git config --get commit.template [2ms]
+2023-04-20 19:49:01.127 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [0ms]
+2023-04-20 19:49:01.217 [info] > git status -z -uall [84ms]
+2023-04-20 19:49:01.217 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.js [7ms]
+2023-04-20 19:49:01.225 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/index.js [20ms]
+2023-04-20 19:49:01.233 [info] > git cat-file -s 638d4abcb902ff6db4694bbbaa6917f856576f44 [1ms]
+2023-04-20 19:49:01.233 [info] > git cat-file -s 7fd83d829e57ead66f055a846a5fde8f6ff605fc [9ms]
+2023-04-20 19:49:01.234 [info] > git ls-files --stage -- /home/devinlclarke/altcademy_projects/exchange-rate-site/src/App.css [18ms]
+2023-04-20 19:49:01.241 [info] > git cat-file -s 8b137891791fe96927ad78e64b0aad7bded08bdc [1ms]
+2023-04-20 19:49:01.266 [info] > git show --textconv :src/index.js [14ms]
+2023-04-20 19:49:01.267 [info] > git show --textconv :src/App.js [8ms]
+2023-04-20 19:49:01.272 [info] > git show --textconv :src/App.css [6ms]
+2023-04-20 19:51:33.015 [info] > git check-ignore -v -z --stdin [7ms]
+2023-04-20 19:51:35.591 [info] > git check-ignore -v -z --stdin [9ms]

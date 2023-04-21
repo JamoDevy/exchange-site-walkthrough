@@ -1,0 +1,12 @@
+.form-row {
+    display: inline;
+}
+
+.form-group {
+    width: 25%;
+}
+
+#base.form-control {
+    width: 100%;
+}
+

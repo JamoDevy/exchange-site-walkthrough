@@ -1,0 +1,21 @@
+2023-04-20 18:46:45.440 [info] Log level: Info
+2023-04-20 18:46:45.440 [info] Validating found git in: "git"
+2023-04-20 18:46:45.440 [info] Using git "2.17.1" from "git"
+2023-04-20 18:46:45.440 [info] > git rev-parse --show-toplevel [36ms]
+2023-04-20 18:46:45.473 [info] > git rev-parse --git-dir --git-common-dir [28ms]
+2023-04-20 18:46:45.482 [info] Open repository: /home/devinlclarke/altcademy_projects/exchange-rate-site-2
+2023-04-20 18:46:45.497 [info] > git rev-parse --show-toplevel [9ms]
+2023-04-20 18:46:45.509 [info] > git rev-parse --show-toplevel [3ms]
+2023-04-20 18:46:45.548 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [18ms]
+2023-04-20 18:46:45.580 [info] > git status -z -uall [24ms]
+2023-04-20 18:46:45.601 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [3ms]
+2023-04-20 18:46:45.611 [info] > git status -z -uall [4ms]
+2023-04-20 18:46:46.053 [info] > git check-ignore -v -z --stdin [1ms]
+2023-04-20 18:46:49.463 [info] > git check-ignore -v -z --stdin [0ms]
+2023-04-20 18:47:18.334 [info] > git -c user.useConfigOnly=true commit --quiet [4ms]
+2023-04-20 18:47:18.334 [info] error: Committing is not possible because you have unmerged files.
+hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+hint: as appropriate to mark resolution and make a commit.
+fatal: Exiting because of an unresolved conflict.
+2023-04-20 18:47:18.340 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/gh-pages refs/remotes/gh-pages [1ms]
+2023-04-20 18:47:18.348 [info] > git status -z -uall [3ms]
